@@ -1,6 +1,6 @@
 ## Especificações de commits na estrutura de projetos
 
-Neste projeto vamos abordar as especificações, regras de commits e versionamento que devem ser seguidos nos projetos.
+Neste projeto vamos abordar as especificações e regras de commits que devem ser seguidos nos projetos.
 
 ### Sumário
 
