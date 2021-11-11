@@ -8,7 +8,6 @@ Neste projeto vamos abordar as especificações, regras de commits e versionamen
 Senha: tntc
 
 Estaremos usando de base a especificação de convenção de commits que nos fornece várias regras simples para criar e explicar o histórico de commits, o que deixa isso mais fácil e automatizado. Essas especificação terão por base [CM](https://www.conventionalcommits.org/en/v1.0.0/#specification), mas com algumas mudanças nas regras para encaixar no perfil. <br />
-Para cada projeto, nas definições iremos posicionar em qual linguagem deverá ser escrito (projeto brasileiro e sem possibilidade de exportação estrangeira, utilizar pt-BR, projetos com possibilidade de exportação us-US). <br />
 
 ### As mensagem de commits devem ser estruturadas da seguinte forma:
 > tipo[módulo(opcional)]: descrição
