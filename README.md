@@ -4,7 +4,7 @@ Neste projeto vamos abordar as especificações e regras de commits que devem se
 
 ### Sumário
 
-[Assista ao vídeo](https://www.loom.com/share/ba9c263f3c1943719e295d9da387236d)
+[Assista ao vídeo](https://www.loom.com/share/ba9c263f3c1943719e295d9da387236d){:target="_blank"}
 Senha: tntc
 
 Estaremos usando de base a especificação de convenção de commits que nos fornece várias regras simples para criar e explicar o histórico de commits, o que deixa isso mais fácil e automatizado. Essas especificação terão por base [CM](https://www.conventionalcommits.org/en/v1.0.0/#specification), mas com algumas mudanças nas regras para encaixar no perfil. <br />
