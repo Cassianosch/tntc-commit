@@ -34,14 +34,14 @@ Para cada projeto, nas definições iremos posicionar em qual linguagem deverá 
 
 >Input que deve ser inserido um valor monetário, foi para produção sem a máscara, mas se notou que era **melhor ser inserido**
 
-`feat[carrinho-de-compra]: Adicionado mascara no input de senha` <br />
-`feat: Adicionado mascara no input de senha`
+`feat[carrinho-de-compra]: Adicionado mascara no input de valor de compra` <br />
+`feat: Adicionado mascara no input de valor de compra`
 
 ---
 
 >Tinha um bug no input que deve ser inserido um valor monetário e foi para produção sem a máscara, **mas deveria ter ido com**
 
-`fix[carrinho-de-compra]: Adicionado mascara no input de senha`
+`fix[carrinho-de-compra]: Adicionado mascara no input de valor de compra`
 
 ---
 
