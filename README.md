@@ -51,7 +51,6 @@ We will be basing this on the commit convention specification that provides us w
 `With a reformulation in the code that performs the user loop, a better way to perform it was thought of, removing the comparison from the Name element`
 
 ---
----
 
 >Removing support for node < 6
 
