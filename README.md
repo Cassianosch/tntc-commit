@@ -16,7 +16,7 @@ The guidelines listed below are based on [CM](https://www.conventionalcommits.or
 >
 >[footer(optional)]  
   
-##### Commits contain structural elements(types), to communicate what is being done within it.
+##### Commits contain structural elements(types), so we can tell what is being changed.
 1. **fix**           - Correcting an error in the code
 2. **feat**          - Adding a new feature to the code
 3. **refactor**      - Refactoring some part of the code, not adding a new feature or fixing a bug
