@@ -4,9 +4,6 @@ In this document we will cover the specifications and rules for commits that mus
 
 ### Summary
 
-[Watch the video]()
-Senha: tntc
-
 We will be basing this on the commit convention specification that provides us with several simple rules for creating and explaining the commit history, which makes it easier and more automated. These specifications will be based on [CM](https://www.conventionalcommits.org/en/v1.0.0/#specification), but with some changes to the rules to fit the profile of the company. <br />
 
 ### The commit messages should be structured as follows:
