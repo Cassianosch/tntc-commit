@@ -1,53 +1,65 @@
-## Especificações de commits na estrutura de projetos
+## Commits Specifications in the Project Structure
 
-Neste projeto vamos abordar as especificações e regras de commits que devem ser seguidos nos projetos.
+In this document we will cover the specifications and rules for commits that must be followed in projects.
 
-### Sumário
+### Summary
 
-[Assista ao vídeo](https://www.loom.com/share/ba9c263f3c1943719e295d9da387236d)
+[Watch the video]()
 Senha: tntc
 
-Estaremos usando de base a especificação de convenção de commits que nos fornece várias regras simples para criar e explicar o histórico de commits, o que deixa isso mais fácil e automatizado. Essas especificação terão por base [CM](https://www.conventionalcommits.org/en/v1.0.0/#specification), mas com algumas mudanças nas regras para encaixar no perfil. <br />
+We will be basing this on the commit convention specification that provides us with several simple rules for creating and explaining the commit history, which makes it easier and more automated. These specifications will be based on [CM](https://www.conventionalcommits.org/en/v1.0.0/#specification), but with some changes to the rules to fit the profile of the company. <br />
 
-### As mensagem de commits devem ser estruturadas da seguinte forma:
-> tipo[módulo(opcional)]: descrição
+### The commit messages should be structured as follows:
+> type[module/scope(optional)]: description
 >
-> [corpo opcional]
+> [body(optional)]
 >
->[rodapé(s) opcional(s)]
+>[footer(optional)]
 
-##### Os commits contém elementos estruturais, para comunicar o que está sendo feito naquele commit.
-1. **fix** - Vai corrigir um erro no código
-2. **feat** - Vai adicionar um recurso novo ai código
-3. **refactor** - Refatorar alguma parte do código, não adicionou recurso novo nem corrigiu um bug
-4. **revert** - Vai reverter alguma parte do código/commit
-5. **Finish v0.0.1** - Criou uma release de commit, padrão do Smart Git
-6. **style** - Para css, formatação, falta de ponto e virgula, ajuste de sintaxe
-7. **test** - Adição de teste 
-8. **perf** - Adição ou ajuste de código que melhora a performance do app
-9. **ci** - Processo deploy
-10. **chore** - Processo de build ou adição de ferramentas refente a isso
-11. **docs** - Mudanças na documentação
+##### Commits contain structural elements(types), to communicate what is being done within it.
+1. **fix**           - Will correct an error in the code
+2. **feat**          - Will add a new feature to the code
+3. **refactor**      - Refactoring some part of the code, not adding a new feature or fixing a bug
+3.1. **refactor!**   - breaking change (! is for attention)
+4. **revert**        - Will reverse some part of the code/commit
+5. **Finish v0.0.1** - Created a commit release
+6. **style**         - For css, formatting, missing semicolons, syntax adjustment
+7. **test**          - Add Test 
+8. **perf**          - Add or adjusting code that improves the app's performance
+9. **ci**            - Deployment Process
+10. **chore**        - Process of building or adding tools related to this
+11. **docs**         - Documentation Changes
 
-#### Exemplos
+#### Examples
 
->Input que deve ser inserido um valor monetário, foi para produção sem a máscara, mas se notou que era **melhor ser inserido**
+>Input that a monetary value should be entered, went into production without the mask, but it was noted that it was **better has the masks**.
 
-`feat[carrinho-de-compra]: Adicionado mascara no input de valor de compra` <br />
-`feat: Adicionado mascara no input de valor de compra`
-
----
-
->Tinha um bug no input que deve ser inserido um valor monetário e foi para produção sem a máscara, **mas deveria ter ido com**
-
-`fix[carrinho-de-compra]: Adicionado mascara no input de valor de compra`
+`feat[shopping-cart]: Added masking to the purchase value input` <br />
+`feat: Added masking to the purchase value input`
 
 ---
 
->Pensei em uma forma de melhorar o formato do for, e isso vai deixar a listagem de usuário com um performance melhor
+>Had a bug in the input that a monetary value must be entered and went into production without the mask, **but should have gone with the mask**.
 
-`perf[usuario]: listagem de todos os usuário`<br />
-`Com uma reformulação no código que realiza o laço dos usuário foi pensando em um formato melhor de performar o mesmo retirando a comparação do elemento Name`
+`fix[shopping-cart]: Added masking to the purchase value input`
 
 ---
-> Por padrão utilizando o [Smart Git](https://www.syntevo.com/smartgit/)
+
+>I thought of a way to improve the format of the for, and this will make the user list perform better
+
+`perf[user]: list of all users`<br />
+`With a reformulation in the code that performs the user loop, a better way to perform it was thought of, removing the comparison from the Name element`
+
+---
+---
+
+>Removing support for node < 6
+
+`refactor!: drop support for Node 6`<br />
+
+---
+> By default using [Smart Git](https://www.syntevo.com/smartgit/)
+
+
+
+
